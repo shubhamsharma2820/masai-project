@@ -1,0 +1,29 @@
+h1{
+    font-size: 60px;
+    color: #c78b36;
+    text-align: center;
+}
+.des{
+    line-height: 25px;
+    width: 50%;
+    text-align: center ;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: -40px ;
+}
+#container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+#container > div{
+width: 30%;
+margin: auto;
+text-align: center;
+}
+#container img{
+    width: 100%;
+}
+h2 +p{
+    color: #c78b36;
+}
