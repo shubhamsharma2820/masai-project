@@ -1,98 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
-        <title>Masai Mentors</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <style>
-        #main{
-            margin-top: 50px;
-            height: 425px;
-            width: 90%;
+        #parentbox{
             margin: auto;
-            text-align: center;
-        }
-        #parentBox{
-            /*width: 100%;
-            /*border: 2px solid crimson;*/
             display: flex;
-            margin-top: 20px;
-            /*box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;*/
         }
         .box{
-            
-            width: 20%;
-            /*border: 1px solid crimson;/
-            /*height: 300px;*/ 
-            margin: auto;
-            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            width: 23%;
+            margin: 10px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
             border-radius: 8px;
         }
-        .avater{
-            width: 225px;
-            height: 200px;
-            border-radius: 8px;
+        h1{
+            text-align: center;
+        }
+        .Avatar{
+           width: 100%;
+           border-radius: 8px;
+
         }
         .tc{
             text-align: center;
+            
         }
-        .pc{
-            width: 35%;
+        #top{
             text-align: center;
-            margin: auto;
+           margin-top: -15px;
         }
-    </style>
-    </head>
-    <body>
-        <h1>Meet Our Mentors</h1>
-        <p class="pc"> Being Developers themselves, the Curriculum Team is an Experienced gropu if instructore Teaching.<p>
-        <div id="main">
-            <div id="parentBox">
-        <div class ="box">
-            <img class="avater" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Image_from_i_OS_3_Pawan_Pathak_a22336ee65.webp" alt="Pawan Pathak">
-            <h3 class="tc">Pawan Pathak</h3>
-            <img class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="sharechat">
-        </div>
-        <div class ="box">
-            <img class="avater" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Arjun_3848ab5fe7.jpg" alt="Arjun Thakur">
-            <h3 class="tc">Arjun Thakur</h3>
-            <img class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="sharechat">
-        </div>
-        <div class ="box">
-            <img class="avater" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Profile_Pic_Deepthi_Prabhandam_1_b19ebd823d.jpg" alt="Deepthi N Prabhandam">
-            <h3 class="tc">Deepthi N Prabhandam</h3>
-            <img class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/lendingkart_rect_d0d30d7b53.svg" alt="lendingkart">
-        </div>
-        <div class ="box">
-            <img class="avater" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Ritesh_Firodiya_4_8a667ac9c8.jpg" alt="Ritesh Firodiya">
-            <h3 class="tc">Ritesh Firodiya</h3>
-            <img class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="Paytm">
-        </div></div>
-        <div id="parentBox">
-        <div class ="box">
-            <img class="avater" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/lohit_dp_98abd5839c.jpeg" alt="Lohit Marodia">
-            <h3 class="tc">Lohit Marodia</h3>
-            <img class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="Paytm">
-        </div>
-        <div class ="box">
-            <img class="avater" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/pradeep_1fd2ce3845.jpeg" alt="Pradeep Kumar">
-            <h3 class="tc">Pradeep Kumar</h3>
-            <img class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/cred_0a47d7b4f8.png" alt="CRED">
-        </div>
-        <div class ="box">
-            <img class="avater" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/aditya_kumar_73577e9083.jpeg" alt="Adity kumar">
-            <h3 class="tc">Adity kumar</h3>
-            <img class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/delhivery_17e85a76ed.png" alt="delivery">
-        </div>
-        <div class ="box">
-            <img class="avater" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/profile_picture_slack_Santhisri_Khandavalli_b73df39844.jpg" alt="Santhi Sri Khandavalli">
-            <h3 class="tc">Santhi Sri Khandavalli</h3>
-            <img class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/delhivery_17e85a76ed.png" alt="delivery">
-        </div>
-        </div>
-        <button class="but" type="button" >SEE MORE ></button>
-        </div>
+        #tp{
+            width: 80%;
+            /* background-color: red; */
+            margin: auto;
+            margin-bottom: 15px;
+        }
+        p{
+            margin: -2px 0;
+        }
+        .logo{
+            width: 100px;
+            display: block;
+            margin: auto;
 
-    </body>
-    
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="tp">
+    <h1>Meet Our Mentors</h1>
+     <p id="top">Being Developers themselves,the Curriculum Team is an experienced group of instructors teaching.</p>
+    </div>
+     
+     <div id="parentbox">
+        <div class="box">
+            <img class="Avatar" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/angad_ahuja_0eef27f35a.jpg" alt="">
+            <h3 class="tc">VAngad Ahuja</h3>
+            <img  class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/cisco_rect_7d73d828a9.svg" alt="logo">
+        </div>
+        <div class="box">
+            <img class="Avatar" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/kanishk_aman_247ff1ba31.jpg" alt="">
+            <h3 class="tc">Kanish aman</h3>
+            <img class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/flipkart_e9b84a5d5e.svg" alt="logo">
+        </div>
+        <div class="box">
+            <img class="Avatar" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/nitesh_409e88531a.jpg" alt="">
+            <h3 class="tc">Nitesh Jain</h3>
+            <img class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/amazon_rect_9e0cd101b1.svg" alt="Pine Labs logo">
+        </div>
+        <div class="box">
+            <img class="Avatar" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/vinit_shahdeo_1c2adad5d2.jpg" alt="">
+            <h3 class="tc">Vinit Shahdeo</h3>
+            <img class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/postman_10230ab74d.svg" alt="instamojo logo">
+        </div>
+        
+        
+     </div>
+     <div id="parentbox">
+        <div class="box">
+            <img class="Avatar" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/amol_holani_104aa76aad.jpeg" alt="">
+            <h3 class="tc">amol holani</h3>
+            <img  class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/citi_rect_0895008b53.svg" alt="logo">
+        </div>
+        <div class="box">
+            <img class="Avatar" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/yash_shukla_f8d69a6bb2.jpg" alt="">
+            <h3 class="tc">Yash Shukla</h3>
+            <img class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/microsoft_rect_2fd5941d6b.svg" alt="logo">
+        </div>
+        <div class="box">
+            <img class="Avatar" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/yuvraj_jaiswal_98e5f25045.jpg" alt="">
+            <h3 class="tc">Yuvraj Jaiswal</h3>
+            <img class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/amazon_rect_9e0cd101b1.svg" alt="Pine Labs logo">
+        </div>
+        <div class="box">
+            <img class="Avatar" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/mohit_rai_00ca5b01ee.jpg" alt="">
+            <h3 class="tc">Mohit Rai</h3>
+            <img class="logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/flipkart_e9b84a5d5e.svg" alt="instamojo logo">
+        </div>
+        <div>
+        
+        
+     </div>
+</body>
 </html>
